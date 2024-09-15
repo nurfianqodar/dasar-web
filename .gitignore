@@ -1,0 +1,9 @@
+.vscode/
+
+style/input.css
+
+node_modules/
+
+tailwind*
+
+package*
