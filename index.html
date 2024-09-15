@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
   <!-- Head -->
   <head>
     <!-- Meta -->
@@ -8,7 +8,6 @@
     <!-- End Meta -->
 
     <!-- OG -->
-
     <!-- End OG -->
 
     <!-- Twitter -->
@@ -20,19 +19,31 @@
   <!-- End Head -->
 
   <!-- Body -->
-  <body class="scroll-smooth">
+  <body>
     <!-- Header -->
     <header class="fixed w-full h-20 flex items-center px-5 justify-between">
-      <h1><a href="/">Nurfian Qodar</a></h1>
-      <button>Menu</button>
-      <nav class="hidden"></nav>
+      <h1 class="font-bold text-lg"><a href="/">Nurfian Qodar</a></h1>
+      <button id="menu-button" type="button">Menu</button>
+      <nav
+        id="nav-menu"
+        class="fixed top-20 right-0 p-5 bg-white shadow-sm rounded-lg w-44 hidden"
+      >
+        <ul class="flex flex-col gap-y-5">
+          <li>
+            <a href="#hero">Home</a>
+          </li>
+          <li><a href="#social-media">Social Media</a></li>
+          <li><a href="#about-me">About Me</a></li>
+          <li><a href="#my-skills">My Skills</a></li>
+        </ul>
+      </nav>
     </header>
     <!-- End Header -->
 
     <!-- Main -->
-    <main class="px-5 py-36 flex flex-col gap-y-16">
+    <main class="px-5 flex flex-col gap-y-16">
       <!-- Hero Section -->
-      <section id="hero" class="flex flex-col gap-y-8 min-h-svh">
+      <section id="hero" class="flex flex-col gap-y-8 min-h-svh py-32">
         <h1 class="font-semibold flex flex-col">
           Hi I'm <span class="text-5xl"> Nurfian Qodar </span>
         </h1>
